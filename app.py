@@ -55,10 +55,10 @@ vgg_model = VGG16()
 vgg_model = Model(inputs=vgg_model.inputs, outputs=vgg_model.layers[-2].output)
 
 # Load your trained model
-model = tf.keras.models.load_model("C:/Users/shrut/PycharmProjects/IC_1.1/best_mode_vgg_40.h5")
+model = tf.keras.models.load_model("best_mode_vgg_40.h5")
 
 # Load the tokenizer
-with open('C:/Users/shrut/PycharmProjects/IC_1.1/tokenizer40_new.pickle', 'rb') as tokenizer_file:
+with open('tokenizer40_new.pickle', 'rb') as tokenizer_file:
     tokenizer = pickle.load(tokenizer_file)
 
 with st.sidebar:
