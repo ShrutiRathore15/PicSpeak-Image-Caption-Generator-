@@ -1,6 +1,5 @@
 
 streamlit
-base64
 
 gunicorn==21.2.0
 Pillow>=8.0.0
