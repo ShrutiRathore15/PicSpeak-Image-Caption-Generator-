@@ -1,5 +1,5 @@
 import streamlit as st
-import pyautogui
+#import pyautogui
 import base64
 import numpy as np
 import pickle
@@ -136,5 +136,5 @@ if uploaded_image is not None:
     )
 
 st.markdown('##')
-if st.button("Reset"):
-    pyautogui.hotkey("ctrl", "F5")
+#if st.button("Reset"):
+   # pyautogui.hotkey("ctrl", "F5")
