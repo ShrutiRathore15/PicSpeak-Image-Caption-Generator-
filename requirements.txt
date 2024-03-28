@@ -1,6 +1,6 @@
 
-streamlit==1.24.0
-base64==3.3
+streamlit
+base64
 
 gunicorn==21.2.0
 Pillow>=8.0.0
