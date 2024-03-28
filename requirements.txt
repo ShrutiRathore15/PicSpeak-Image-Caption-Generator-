@@ -136,7 +136,9 @@ tokenizer==3.4.3
 toml==0.10.2
 tomli==2.0.1
 toolz==0.12.0
-tensorRT==11.6
+tensorRT
+
+
 traitlets==5.9.0
 traittypes==0.2.1
 typing_extensions==4.5.0
