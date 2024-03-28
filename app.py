@@ -35,7 +35,7 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-set_background(r'C:\Users\shrut\PycharmProjects\IC_1.1\wallpaper.jpg')
+#set_background(r'C:\Users\shrut\PycharmProjects\IC_1.1\wallpaper.jpg')
 
 
 # Set custom web page title
