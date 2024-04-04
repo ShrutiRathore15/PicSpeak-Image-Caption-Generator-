@@ -26,7 +26,7 @@ def set_background(png_file):
     page_bg_img = '''
     <style>
     .stApp {
-    background-image: url("data:image/jpg;base64,%s");
+    background-image: url("data:image/png;base64,%s");
     background-size: cover;
     }
 
@@ -35,7 +35,7 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-set_background(r'wallpaper.jpg')
+set_background(r'3.png')
 
 
 # Set custom web page title
